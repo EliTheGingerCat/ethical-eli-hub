@@ -5,7 +5,7 @@
     "Lighting": {
       "$properties": {
         "Ambient": [0, 0, 0],
-        "Brightness": 1.981,
+        "Brightness": 1.9809999465942383,
         "GlobalShadows": true,
         "Technology": "Voxel"
       },
