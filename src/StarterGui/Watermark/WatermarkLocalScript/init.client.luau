@@ -4,6 +4,7 @@
 -- Services
 -- ==========
 local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local TweenService = game:GetService("TweenService")
 
 -- ==========
@@ -19,7 +20,7 @@ local package = script.Parent
 -- ==========
 -- Modules
 -- ==========
-local SafeService = require(script.SafeService)
+local SafeService = require(ReplicatedStorage.SafeService)
 
 -- ==========
 -- GUI
