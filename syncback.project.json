@@ -1,12 +1,12 @@
 {
   "name": "Ethical_Eli Hub",
+  "syncbackRules": {
+    "syncCurrentCamera": false
+  },
   "tree": {
     "$className": "DataModel",
     "Workspace": {
       "$path": "./src/Workspace"
     }
-  },
-  "syncbackRules": {
-    "syncCurrentCamera": false
   }
 }
