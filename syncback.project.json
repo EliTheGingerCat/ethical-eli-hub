@@ -3,6 +3,18 @@
   "tree": {
     "$className": "DataModel",
     "Lighting": {
+      "Bloom": {
+        "$className": "BloomEffect",
+        "$properties": {
+          "Intensity": 0.0
+        }
+      },
+      "ColorGrading": {
+        "$className": "ColorGradingEffect",
+        "$properties": {
+          "TonemapperPreset": "Retro"
+        }
+      },
       "$properties": {
         "Ambient": [
           0.0,
