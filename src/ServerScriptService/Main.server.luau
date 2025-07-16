@@ -8,7 +8,7 @@ local TeleportService = game:GetService("TeleportService")
 local Model2 = require(ReplicatedStorage.Model2)
 local SafeService = require(ReplicatedStorage.SafeService)
 
-local gameIds = {4480098780, 6759417009, 6995148201, 6995697574, 9033632869}
+local gameIds = {6759417009, 6995148201, 6995697574, 9033632869}
 local gameData = {}
 for _, id in gameIds do
 	local info = SafeService.marketplace.productInfo(id)
