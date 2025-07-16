@@ -1,0 +1,52 @@
+{
+  "name": "Ethical_Eli Hub",
+  "tree": {
+    "$className": "DataModel",
+    "Lighting": {
+      "$properties": {
+        "Ambient": [0, 0, 0],
+        "Brightness": 1.981,
+        "GlobalShadows": true,
+        "Technology": "Voxel"
+      },
+      "Bloom": {
+        "$className": "BloomEffect",
+        "$properties": {
+          "Intensity": 0,
+          "Threshold": 0.95
+        }
+      },
+      "ColorGrading": {
+        "$className": "ColorGradingEffect",
+        "$properties": {
+          "TonemapperPreset": "Retro"
+        }
+      }
+    },
+    "ReplicatedStorage": {
+      "$path": "./src/ReplicatedStorage"
+    },
+    "ServerScriptService": {
+      "$path": "./src/ServerScriptService"
+    },
+    "ServerStorage": {
+      "$path": "./src/ServerStorage"
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    },
+    "StarterGui": {
+      "$path": "./src/StarterGui"
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "./src/StarterPlayerScripts"
+      }
+    },
+    "Workspace": {
+      "$path": "./src/Workspace"
+    }
+  }
+}

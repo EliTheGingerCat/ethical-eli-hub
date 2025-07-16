@@ -1,0 +1,108 @@
+{
+  "name": "Ethical_Eli Hub",
+  "tree": {
+    "$className": "DataModel",
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Brightness": 1.9809999465942383,
+        "ExtendLightRangeTo120": {
+          "Enum": 0
+        },
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Voxel"
+      }
+    },
+    "ReplicatedStorage": {
+      "$path": "./src/ReplicatedStorage"
+    },
+    "ServerScriptService": {
+      "$path": "./src/ServerScriptService"
+    },
+    "ServerStorage": {
+      "$path": "./src/ServerStorage"
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    },
+    "StarterGui": {
+      "$path": "./src/StarterGui"
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "./src/StarterPlayerScripts"
+      },
+      "$properties": {
+        "ClassicDeath": {
+          "Bool": true
+        },
+        "GameSettingsScaleRangeBodyType": {
+          "NumberRange": [
+            0.0,
+            0.0
+          ]
+        },
+        "GameSettingsScaleRangeProportion": {
+          "NumberRange": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "Workspace": {
+      "$properties": {
+        "AuthorityMode": {
+          "Enum": 1
+        },
+        "DistributedGameTime": 126.98333999048918,
+        "LuauTypeCheckMode": {
+          "Enum": 0
+        },
+        "UseImprovedModelLod": {
+          "Enum": 0
+        },
+        "UseNewLuauTypeSolver": {
+          "Enum": 0
+        },
+        "WorldPivotData": {
+          "OptionalCFrame": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        }
+      },
+      "$path": "./src/Workspace"
+    }
+  },
+  "syncbackRules": {
+    "syncCurrentCamera": false
+  }
+}

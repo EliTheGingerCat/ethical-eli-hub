@@ -1,0 +1,33 @@
+{
+  "properties": {
+    "TextureId": "http://www.roblox.com/asset/?id=115341569",
+    "ToolTip": "Release some fireflies into the night!",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "position": [
+          99.99943,
+          62.636982,
+          495.79965
+        ],
+        "orientation": [
+          [
+            1.0,
+            0.000030520838,
+            -0.000030514318
+          ],
+          [
+            -0.000030514318,
+            1.0,
+            0.00021362351
+          ],
+          [
+            0.000030520838,
+            -0.00021362258,
+            1.0
+          ]
+        ]
+      }
+    }
+  },
+  "className": "Tool"
+}
