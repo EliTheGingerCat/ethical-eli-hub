@@ -48,9 +48,6 @@
       "$path": "./src/StarterGui"
     },
     "StarterPlayer": {
-      "StarterPlayerScripts": {
-        "$path": "./src/StarterPlayerScripts"
-      },
       "$properties": {
         "ClassicDeath": {
           "Bool": true

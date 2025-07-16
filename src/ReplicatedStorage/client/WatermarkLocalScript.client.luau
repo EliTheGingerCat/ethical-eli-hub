@@ -15,7 +15,7 @@ local Player = Players.LocalPlayer
 -- ==========
 -- Package
 -- ==========
-local package = script.Parent
+local package = Player.PlayerGui:WaitForChild("Watermark")
 
 -- ==========
 -- Modules

@@ -1,5 +1,6 @@
 {
   "name": "Ethical_Eli Hub",
+  "emitLegacyScripts": false,
   "tree": {
     "$className": "DataModel",
     "Lighting": {
@@ -39,11 +40,6 @@
     },
     "StarterGui": {
       "$path": "./src/StarterGui"
-    },
-    "StarterPlayer": {
-      "StarterPlayerScripts": {
-        "$path": "./src/StarterPlayerScripts"
-      }
     },
     "Workspace": {
       "$path": "./src/Workspace"
