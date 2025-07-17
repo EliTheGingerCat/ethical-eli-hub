@@ -2,9 +2,6 @@
   "name": "Ethical_Eli Hub",
   "tree": {
     "$className": "DataModel",
-    "ServerStorage": {
-      "$path": "./src/ServerStorage"
-    },
     "Workspace": {
       "$properties": {
         "AuthorityMode": {

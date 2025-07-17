@@ -1,7 +1,14 @@
 local exec = require("./exec")
 
-local function syncback(): ()
-	exec("rojo-syncback", {"syncback", "syncback.project.json", "--input", "./ethical-eli-hub.rbxl"}, {
+local function syncback(old: boolean?): ()
+	local syncback_file: string
+	if old then
+		syncback_file = "syncback-archive.project.json"
+	else
+		syncback_file = "syncback.project.json"
+	end
+
+	exec("rojo-syncback", {"syncback", syncback_file, "--input", "./ethical-eli-hub.rbxl"}, {
 		stdio = {
 			stdin = "y"
 		}
