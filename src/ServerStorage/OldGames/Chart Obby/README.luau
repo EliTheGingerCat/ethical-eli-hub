@@ -1,8 +1,14 @@
 --[[
 
+Main details:
+
 Universe id: 3250484404
 Place id: 8515170099
+Version: 14
 Name: Chart Obby
+
+Roblox API stuff:
+
 Description: A chart obby made by me.
 Allowed gear genres: all
 Allowed gear categories: none
@@ -21,6 +27,8 @@ genre_l2: ""
 Is all genre: true
 Is favourited by user: false
 Favourited count: 0
+
+Deviation:
 
 ReplicatedFirst script was not commented out.
 
