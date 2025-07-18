@@ -1,5 +1,5 @@
 --> Replace LF with CRLF in text files.
 
-local crlf = require("../modules/crlf")
+local crlf = require("@tools/crlf")
 
-crlf("./src")
+crlf()

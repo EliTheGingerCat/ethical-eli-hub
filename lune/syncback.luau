@@ -1,5 +1,6 @@
 --> Sync instances from the built Place into the filesystem.
 
-local syncback = require("../modules/syncback")
+local build_name = require("../build_name")
+local syncback = require("@tools/syncback")
 
-syncback()
+syncback("syncback.project.json", build_name)

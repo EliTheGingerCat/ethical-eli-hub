@@ -1,5 +1,6 @@
 --> Build the Place.
 
-local build = require("../modules/build")
+local build = require("@tools/build")
+local build_name = require("../build_name")
 
-build()
+build(build_name)

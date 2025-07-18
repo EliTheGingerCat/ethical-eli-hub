@@ -4,6 +4,6 @@
 
 -- This script has to be run before CRLF.
 
-local run_context = require("../modules/run_context")
+local run_context = require("@tools/run_context")
 
-run_context("./src")
+run_context()
